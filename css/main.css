@@ -1,0 +1,114 @@
+body {
+    padding: 5px;
+    margin: 2px;
+    width: 100%;
+    max-width: 1200px;
+    border: 2px solid black;
+    font: 12px/1.5 arial, sans-serif;
+  }
+  
+header {
+    background-color: purple;
+    padding: 5px;
+    margin: 2px;
+    border: 2px solid black;
+  }
+  
+header h1 {
+    margin: 2px;
+    background-color: purple;
+    border: 2px solid black;
+  }
+  
+header img {
+    float: right;
+    background-color: purple;
+    border: 2px solid black;
+  }
+  
+nav a {
+    float: right;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 2px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: purple;
+    color: white;
+  }
+  
+aside {
+    width: 100%;
+    padding: 5px;
+    margin: 2px;
+    border: 2px solid black;
+    background-color: purple;
+  }
+  
+aside ul {
+    list-style: none;
+    line-height: 1.5;
+    margin: 2px;
+    padding: 5px;
+  }
+
+main {
+    float: right;
+    width: 100%;
+    padding: 5px;
+    margin: 2px;
+    border: 2px solid black;
+    background-color: purple;
+  }
+  
+main h2 {
+    margin: 2px;
+    background-color: purple;
+    border: 2px solid black;
+  }
+  
+main p1 {
+    margin-bottom: 10px;
+  }
+  
+main video {
+    max-width: 100%;
+  }
+
+main figure {
+    margin-bottom: 20px;
+  }
+  
+main img, main video {
+    max-width: 100%;
+  }
+
+footer {
+    text-align: center;
+    background-color: purple;
+    border: 2px solid black;
+  }
+  
+footer p {
+    font-size: 10px;
+    margin: 2px;
+  }
+
+@media (max-width: 600px){
+    body{
+       
+        max-width: 600px;     
+    }
+    main{
+        float:none;
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
+    }
+    aside{
+        float: none;
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
+    }
+  }

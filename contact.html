@@ -1,0 +1,79 @@
+  <!-- Dustin Shantz -->
+  <!-- dshantz6629@conestogac.on.ca -->
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css"> 
+    <link rel="stylesheet" href="css/main.css">
+    <title>index.html</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us Page</h1>
+      <img src="images/ouroboros.png">
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+    <aside>
+      <h2>Aside Header</h2>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+    </aside>
+    <main>
+      <h2>Contact Us</h2>
+      <form name="Personal Information" id="personalinfo" autocomplete="on">
+
+        <label for="text">Name</label>
+        <input type="text" id="textinput" name="text" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone</lable>
+        <input type="tel" maxlength="12" id="phone" placeholder="555-555-5555" name="phone" id="phone">
+
+        <label for="status">Employment Status</label>
+        <select name="status" id="status" required>
+            <option value="1">Select Option</option>
+            <option value="2">Student</option>
+            <option value="3">Employed Full-time</option>
+            <option value="4">Employed Part-time</option>
+            <option value="5">Retired</option>
+            <option value="6">Other</option>
+        </select>
+
+        <fieldset>
+            <legend>How Did You Hear About Our Site?</legend>
+            <lable for="firend">Friend</lable>
+            <input type="radio" name="source" id="friend" value="friend">
+            <lable for="socalmedia">Social Media</lable>
+            <input type="radio" name="source" id="socialmedia" value="socialmedia">
+            <lable for="internet">Search Engine</lable>
+            <inout type="radio" name="source" id="internet" value="internet">
+            <lable for="other">Other</lable>
+            <input type="radio" name="source" id="other" value="other" required>
+        </fieldset>
+
+        <fieldset>
+            <label for="service">Tell Us What You Think!</lable>
+            <input type="range" min="1" max="100" step="1" id="service" name="service" required>
+        </fieldset>
+
+        <input type="submit" accesskey="s" value="Submit" id="submit" class="button">
+        <input type="reset" value="Clear" id="reset" class="button">
+      </form>
+
+    </main>
+    <footer>
+      <p>&copy; 2023 Dustin Shantz Student Number: 8886629</p>
+    </footer>
+  </body>
+  </html>
